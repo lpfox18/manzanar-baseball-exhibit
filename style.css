@@ -79,7 +79,7 @@ section {
 section h2 {
     color: #2c3e50;
     font-size: 2rem;
-    border-bottom: 2px solid #3498db; /* Blue underline */
+    border-bottom: 2px solid #991b0a; /* maroon underline */
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -132,4 +132,13 @@ footer a:hover {
         width: 90%; /* Stack divs vertically on small screens */
         margin-bottom: 1rem;
     }
+}
+/* Styling for the active navigation link */
+nav ul li a.active {
+    background-color: #991b0a;
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+    font-weight: bold;
+    border-bottom: 2px solid #ecf0f1;
 }
